@@ -1,0 +1,57 @@
+**************************************************************************************************
+*                                       Comenzi FDF                                              *
+**************************************************************************************************
+*                                 Comenzi pentru COMAND LINE                                     *
+*                                                                                                *
+*************                                                                        *************
+* open "nume" - deschie fisierul cu numele dat (din directorul test_maps a programului)          *
+* init - reinitializeaza matricea                                                                *
+*                                                                                                *
+********                            Comenzi de deplasare                                  ********
+* angle alfa numar - deplaseaza matricea dupa acele ceasornice pe axa 'x' cu valoarea numarului  *
+* angle beta numar - deplaseaza matricea dupa acele ceasornice pe axa 'y' cu valoarea numarului  *
+* angle gamma numar - deplaseaza matricea dupa acele ceasornice pe axa 'z' cu valoarea numarului *
+* move x numar - deplasare matricea pe axa 'x' cu valoarea numarului                             *
+* move y numar - deplasare matricea pe axa 'y' cu valoarea numarului                             *
+* move (numar'x',numar'y') - deplasare matricea pe axa 'x' si 'y' cu valorile numerelor          *
+* zoom numar - se efectueaza zoom asupra matricii cu valoarea numarului                          *
+*                                                                                                *
+********                       Comenzi de initializare scara de deplasare                 ********
+* scale angle numar - initializare scara de deplasare pentru unghiuri                            *
+* scale color numar - initializare scara de deplasare pentru culoare                             *
+* scale inaltime numar - initializare scara de deplasare pentru inaltime                         *
+* scale move numar - initializare scara de deplasare pentru deplasarea pe axa 'x' sau 'y'        *
+*                                                                                                *
+********                             Comenzi de regim                                     ********
+* (atunci cind mousul este pe aria matricii sau in exteriorul matricii la scroll se schimba      *
+* valorile uneia sau tuturor valorilor matricii in corespundere cu denumirea regimului)          *
+*                                                                                                *
+* color - trecerea in regim color                                                                *
+* inaltime - trecerea in regim zoom                                                              *
+* move - trecerea in regim move                                                                  *
+* zoom - trecerea in regim zoom                                                                  *
+*                                                                                                * 
+**************************************************************************************************
+*                                   Comenzi pentru taste                                         *
+********                                                                                  ********
+* 'x' - deplaseaza matricea dupa acele ceasornice pe axa 'x'                                     *
+* 'y' - deplaseaza matricea dupa acele ceasornice pe axa 'y'                                     *
+* 'z' - deplaseaza matricea dupa acele ceasornice pe axa 'z'                                     *
+* 'X' - deplaseaza matricea contra acelor ceasornice pe axa 'X'                                  *
+* 'Y' - deplaseaza matricea contra acelor ceasornice pe axa 'Y'                                  *
+* 'Z' - deplaseaza matricea contra acelor ceasornice pe axa 'Z'                                  *
+* 'i' - deplaseaza matricea pe coordonatele (0,0)                                                *
+* 'm' - deplaseaza matricea la mijlocul ferestrei                                                *
+* '+' - efectuare zoom_in (mareste matricea)                                                     *
+* '-' - efectuare zoom_out (micsoreaza matricea)                                                 *
+* LeftArrow - deplasare matrice 'sus'                                                            *
+* RightArrow - deplasare matrice 'jos'                                                           *
+* DownArrow - deplasare matrice 'dreapta'                                                        *
+* UpArrow - deplasare matrice 'stinga'                                                           *
+*                                                                                                * 
+**************************************************************************************************
+*                                      Comenzi mouse                                             *
+********                                                                                  ********
+* click stinga - pe aria matricii, punctul unde sa tastat este initializat la (0,0)              *
+* scroll - se modifica valorile comenzilor de regin                                              *
+**************************************************************************************************
